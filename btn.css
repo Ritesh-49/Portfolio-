@@ -1,0 +1,49 @@
+
+.buttons {
+  margin-top: 2.2em;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 9px 14px;
+  border-radius: 25px;
+  border: 2px solid #76a5d3;
+  color: white;
+  background-color: #76a5d3;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #4d7fbb;
+  /* color: black; */
+}
+
+
+.btn span {
+    display: inline-block;
+    transition: transform 0.6s ease;
+    transform-origin: center;
+    backface-visibility: hidden;
+}
+
+.btn:hover span {
+    transform: rotateX(360deg);
+}
+.btn-sm {
+  font-size: 14px;
+  padding: 5px 19px;
+  margin: 12px 0;
+  /* perspective: 1000px; */
+}
+
+
+@media (max-width:945px) {
+  .buttons {
+    margin-top: 2.2em;
+    font-size: 14px;
+  }
+}
