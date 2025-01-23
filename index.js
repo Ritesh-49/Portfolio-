@@ -1,9 +1,5 @@
 // console.log('script connected');
 
-
-
-
-
 let a;
 a = document.querySelector('.cross');
 a.style.display = 'none';
@@ -19,7 +15,7 @@ hamburger.addEventListener("click",  ()=> {
     document.querySelector('.ham').style.display = 'none'
     setTimeout( () => {
       document.querySelector('.cross').style.display = 'inline';
-    },580)
+    },590)
 
   }
 })
